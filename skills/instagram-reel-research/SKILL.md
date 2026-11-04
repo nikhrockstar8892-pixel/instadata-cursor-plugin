@@ -1,6 +1,6 @@
 ---
 name: instagram-reel-research
-description: Use when the user shares an instagram.com/reel or /p/ URL, or asks for an Instagram reel transcript, video summary, post stats, comments, captions or downloads, or wants to learn from / repurpose an Instagram video. Powered by Instadata MCP.
+description: Use when the user shares an Instagram reel/post URL or asks for its transcript, summary, comments or stats; returns clean JSON via Instadata MCP.
 ---
 # Instagram reel & post research (Instadata)
 

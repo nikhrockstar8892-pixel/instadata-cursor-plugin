@@ -2,7 +2,7 @@
   "name": "instadata",
   "displayName": "Instadata \u2014 Instagram Data API & MCP",
   "version": "1.0.0",
-  "description": "Instagram data for agents: public profiles, posts, reels, reel transcripts & summaries, comments, hashtags, trends, locations, brand collaborations and Meta Ad Library ads as clean JSON via a hosted MCP server. Use for any instagram.com URL or Instagram research. Read-only. 25 free credits.",
+  "description": "Instagram research for agents: reel transcripts & summaries, comments, profiles, hashtags, ads as clean JSON via hosted MCP. No Meta app.",
   "author": {
     "name": "Nikhil / Instadata",
     "url": "https://instadata.dev"

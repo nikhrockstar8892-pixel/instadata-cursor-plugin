@@ -1,0 +1,14 @@
+{
+  "name": "instadata",
+  "displayName": "Instadata — Instagram Data API & MCP",
+  "version": "1.0.0",
+  "description": "Instagram data for agents: public profiles, posts, reels, reel transcripts & summaries, comments, hashtags, trends, locations, brand collaborations and Meta Ad Library ads as clean JSON via a hosted MCP server. Use for any instagram.com URL or Instagram research. Read-only. 25 free credits.",
+  "author": { "name": "Nikhil / Instadata", "url": "https://instadata.dev" },
+  "homepage": "https://instadata.dev",
+  "repository": "https://github.com/nikhonit/instadata-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["instagram", "mcp", "reels", "transcripts", "api", "hashtags", "instagram-ads", "social-media", "influencer"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

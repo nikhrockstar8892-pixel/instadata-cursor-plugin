@@ -8,12 +8,12 @@
 ```bash
 cd /workspace/instadata-cursor-plugin
 git init && git add . && git commit -m "Instadata Cursor plugin v1.0.0"
-gh repo create nikhonit/instadata-cursor-plugin --public --source . --push
+gh repo create nikhrockstar8892-pixel/instadata-cursor-plugin --public --source . --push
 ```
 
 ## A) Cursor Marketplace (feeds Grok Bot plugin catalog / SearchPlugins)
 1. Go to https://cursor.com/marketplace/publish, sign in with the Instadata/Nikhil Cursor account.
-2. Repository URL: `https://github.com/nikhonit/instadata-cursor-plugin`.
+2. Repository URL: `https://github.com/nikhrockstar8892-pixel/instadata-cursor-plugin`.
 3. It reads `.cursor-plugin/plugin.json`; check name `instadata`, logo, description, keywords render.
 4. Category: Data / Developer tools. Paste "Reviewer notes" from README into the notes field; add a free test-account note (25 free credits on OAuth signup).
 5. Accept Publisher Terms, submit. Manual review; answer reviewer emails promptly.

@@ -28,7 +28,7 @@ Public Instagram data for agents: profiles, posts, reels, **reel transcripts & s
 - Remote MCP only (Streamable HTTP) — no local code executed.
 - Read-only; public data only; no posting, DMs, or login to Instagram accounts.
 - Test: install, sign in with OAuth (25 free credits), ask "Get the transcript of https://www.instagram.com/reel/<id>/" or "Profile stats for @natgeo".
-- Reviewers: sign up at https://instadata.dev for 25 free credits (OAuth). Confirm Cursor MCP OAuth redirect URIs are allowlisted before relying on sign-in during review. Contact: https://instadata.dev.
+- Reviewers: sign up at https://instadata.dev for 25 free credits (OAuth or API key). Verified 4 Nov 2026: DCR accepts `https://www.cursor.com/agents/mcp/oauth/callback`, `https://www.cursor.com/bot/mcp/oauth/callback`, and `http://localhost:8787/callback`. The `cursor://anysphere.cursor-mcp/oauth/callback` custom scheme is **not** accepted yet (DCR returns invalid_redirect_uri if that URI is included) — fix PR in flight; until merged, prefer API key for review if Cursor registers all three URIs. Contact: https://instadata.dev.
 - Related open-source skills: https://github.com/nikhonit/instagram-api-skills
 
 ## License

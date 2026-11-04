@@ -2,7 +2,7 @@
 
 ## Pre-flight (do first)
 1. Replace `assets/logo.png` if a newer brand mark exists (`assets/logo.svg` is a placeholder mark).
-2. Confirm Cursor OAuth redirect URIs (e.g. `cursor://anysphere.cursor-mcp/oauth/callback` and Cursor web callbacks) are allowlisted on mcp.instadata.dev, or review sign-in will fail.
+2. OAuth DCR (verified): https Cursor callbacks + http://localhost:8787/callback OK; `cursor://anysphere.cursor-mcp/oauth/callback` still rejected — merge OAuth allowlist PR before relying on full Cursor DCR, or tell reviewers to use API keys.
 3. Fix the "unhealthy" status on Glama for the MCP connector; verify `https://mcp.instadata.dev` answers MCP initialize.
 4. Push this folder:
 ```bash

@@ -1,6 +1,12 @@
-# Instadata — Instagram Data API & MCP for Cursor
+# Instadata — Instagram research for Cursor (MCP)
 
-Public Instagram data for agents: profiles, posts, reels, **reel transcripts & summaries**, comments, hashtags, keyword search, locations, brand collaborations and **Meta Ad Library ads** — clean JSON via a hosted MCP server. Read-only.
+Ask your agent about any public Instagram reel, profile or hashtag. Instadata returns
+**reel transcripts & summaries**, stats, comments, profiles, hashtags, locations, brand
+collaborations and **Meta Ad Library ads** as clean JSON via a hosted MCP server
+(`https://mcp.instadata.dev`). Read-only. No Meta developer app.
+
+**Try:** "Summarize this reel and its top comments: <reel URL>" ·
+"Vet @brand: followers, last 10 posts, engagement" · "What ads is @brand running?"
 
 ## Install
 - Cursor Marketplace: search **Instadata** → Install.
